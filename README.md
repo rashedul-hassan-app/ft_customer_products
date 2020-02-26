@@ -35,7 +35,7 @@ No external dependency is required to run this package. However, 'http' and 'htt
 There is an NPM package called 'request-promise', which could have been used to do the aforementioned task, but then there would be no fun in it. Hence, it was not chosen.
 
 # Error States
-The package handles error states using the Promise's reject() feature. Any Status Code within the range of 200-300 is accepted/resolved. All status codes outside these code range are rejected and thrown as errors.
+The package handles error states using the Promise's reject() feature. Any Status Code within the range of 200-299 is accepted/resolved. All status codes outside these code range are rejected and thrown as errors.
 
 # Testing
 Testing framework of Jest has been chosen.
@@ -44,9 +44,13 @@ Other frameworks like Jasmine or Mocha could have been chosen. Mocha was not cho
 Unit tests written with Jest to check for basic null checks.
 
 How to run the Unit Tests
-- You would need the package Jest, to install Jest
+*You would need the package Jest, to install Jest*
 
-npm i jest
+`npm i jest`
 
-Navigate to the working directory and execute on terminal 'npm test' to run the tests
+Navigate to the working directory and execute on terminal `npm test` to run the tests
+
+## Test Dependencies ##
+To mock the Http Status code calls, npm package Nock has been used as a dev test dependency.
+
 
