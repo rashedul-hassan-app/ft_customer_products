@@ -17,6 +17,7 @@ function requestMultipleUrls(urls)
     //  Loop through all the urls given to the function
     for (var i = 0; i < urls.length; i++)
     {
+        //  Check if it is a valid url
         const one_promise = new Promise(function(resolve, reject)
         {
             //  Pick https if url consists of https, or http if url consist of http
@@ -46,14 +47,5 @@ function requestMultipleUrls(urls)
 
     return Promise.all(all_my_promises);
 }
-
-
-// const urls = ['https://ft-tech-test-example.s3-eu-west-1.amazonaws.com/ftse-fsi.json',
-//             'https://ft-tech-test-example.s3-eu-west-1.amazonaws.com/gbp-hkd.json'];
-
-// requestMultipleUrls(urls)
-//     .then(a=>console.log('executing ' + a))
-//     .catch(new Error('Error'));
-
 
 module.exports = {hello, requestMultipleUrls};
