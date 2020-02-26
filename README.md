@@ -44,7 +44,7 @@ Other frameworks like Jasmine or Mocha could have been chosen. Mocha was not cho
 Unit tests written with Jest to check for basic null checks.
 
 How to run the Unit Tests
-- You would need the package Jest
+- You would need the package Jest, to install Jest
 
 npm i jest
 
