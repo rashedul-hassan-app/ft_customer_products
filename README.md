@@ -44,9 +44,12 @@ Other frameworks like Jasmine or Mocha could have been chosen. Mocha was not cho
 Unit tests written with Jest to check for basic null checks.
 
 How to run the Unit Tests
-- You would need the package Jest, to install Jest
+*You would need the package Jest, to install Jest*
 
-npm i jest
+`npm i jest`
 
 Navigate to the working directory and execute on terminal 'npm test' to run the tests
+
+## Test Dependencies ##
+To mock the Http Status calls, npm package Nock has been used as a dev test dependency
 
