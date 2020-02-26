@@ -43,12 +43,12 @@ function requestMultipleUrls(urls)
 }
 
 
-const urls = ['https://ft-tech-test-example.s3-eu-west-1.amazonaws.com/ftse-fsi.json',
-            'https://ft-tech-test-example.s3-eu-west-1.amazonaws.com/gbp-hkd.json'];
+// const urls = ['https://ft-tech-test-example.s3-eu-west-1.amazonaws.com/ftse-fsi.json',
+//             'https://ft-tech-test-example.s3-eu-west-1.amazonaws.com/gbp-hkd.json'];
 
-requestMultipleUrls(urls)
-    .then(a=>console.log('executing ' + a))
-    .catch(new Error('Error'));
+// requestMultipleUrls(urls)
+//     .then(a=>console.log('executing ' + a))
+//     .catch(new Error('Error'));
 
 
 module.exports = {hello, requestMultipleUrls};
