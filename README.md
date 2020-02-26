@@ -42,3 +42,11 @@ Testing framework of Jest has been chosen.
 
 Other frameworks like Jasmine or Mocha could have been chosen. Mocha was not chosen due to the fact, there are other extra dependencies that may be needed e.g. Chai. Jasmine could have been chosen as it does not require other dependencies like Mocha, however Jest is seemingly much more newer than Jasmine and also does not require dependencies like Mocha. Furthermore, Jest is used by Facebook and is currently quite popular.
 Unit tests written with Jest to check for basic null checks.
+
+How to run the Unit Tests
+- You would need the package Jest
+
+npm i jest
+
+Navigate to the working directory and execute on terminal 'npm test' to run the tests
+
