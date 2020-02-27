@@ -25,6 +25,7 @@ When writing this package, you should consider:
 This package is designed in accordance to the above guidelines. Package can be downloaded from NPM using 
 
 `npm i interview_cp_hungrycoder`
+The source code can be found at `./lib.js`
 
 # Features
 The package exposes a function called `requestMultipleUrls(urls)` which takes an array of URLs as a parameter.
