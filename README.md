@@ -22,7 +22,9 @@ When writing this package, you should consider:
 
 
 # Solution
-This package is designed in accordance to the above guidelines.
+This package is designed in accordance to the above guidelines. Package can be downloaded from NPM using 
+
+`npm i interview_cp_hungrycoder`
 
 # Features
 The package exports a function called requestMultipleUrls(urls) and accepts an array of URLs.
