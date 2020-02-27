@@ -27,9 +27,9 @@ This package is designed in accordance to the above guidelines. Package can be d
 `npm i interview_cp_hungrycoder`
 
 # Features
-The package exports a function called requestMultipleUrls(urls) and accepts an array of URLs.
+The package exposes a function called `requestMultipleUrls(urls)` which takes an array of URLs as a parameter.
 
-The function returns the parsed data from the URLs in terms of Promises. An array of Promises has been used to hold all the items of the URLs[].
+The function parses the URLs and stores the results in a Promise. An array of Promises is returned when this function is called.
 
 # Choice of Dependencies
 No external dependency is required to run this package. However, 'http' and 'https' native package of Node.js has been used. 
@@ -55,4 +55,4 @@ Navigate to the working directory and execute on terminal `npm test` to run the 
 ## Test Dependencies ##
 To mock the Http Status code calls, npm package Nock has been used as a dev test dependency.
 
-
+`nmp i Nock`
