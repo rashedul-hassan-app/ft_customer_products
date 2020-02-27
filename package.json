@@ -1,12 +1,9 @@
 {
-  "name": "interview",
-  "version": "1.0.0",
+  "name": "interview_cp_hungrycoder",
+  "version": "1.2.1",
   "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "request": "^2.88.2"
-  },
+  "main": "lib.js",
+  "dependencies": {},
   "devDependencies": {
     "jest": "^25.1.0",
     "nock": "^12.0.1"
