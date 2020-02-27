@@ -17,7 +17,6 @@ function requestMultipleUrls(urls)
     //  Loop through all the urls given to the function
     for (var i = 0; i < urls.length; i++)
     {
-        //  Check if it is a valid url
         const one_promise = new Promise(function(resolve, reject)
         {
             //  Pick https if url consists of https, or http if url consist of http
